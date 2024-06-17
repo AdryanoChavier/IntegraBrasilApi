@@ -12,18 +12,18 @@ namespace IntegraBrasilApi.Models
         public string? Cep { get; set; }
 
         [JsonPropertyName("state")]
-        public string? State { get; set; }
+        public string? Estado { get; set; }
 
         [JsonPropertyName("city")]
-        public string? City { get; set; }
+        public string? Cidade { get; set; }
 
         [JsonPropertyName("neighborhood")]
-        public string? Neighborhood { get; set; }
+        public string? Região { get; set; }
 
         [JsonPropertyName("street")]
-        public string? Street { get; set; }
+        public string? Rua { get; set; }
 
         [JsonPropertyName("service")]
-        public string? Service { get; set; }
+        public string? Servico { get; set; }
     }
 }

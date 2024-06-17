@@ -8,13 +8,13 @@ namespace IntegraBrasilApi.Models
         public string? Ispb{ get;set;}
 
         [JsonPropertyName("name")]
-        public string? Name{ get;set;}
+        public string? NameAbreviado{ get;set;}
 
         [JsonPropertyName("code")]
-        public string? Code{ get;set;}
+        public string? Codigo{ get;set;}
 
         [JsonPropertyName("FullName")]
-        public string? FullName{ get;set;}
+        public string? NomeCompleto{ get;set;}
 
         
     }
