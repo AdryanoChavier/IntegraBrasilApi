@@ -11,7 +11,7 @@ namespace IntegraBrasilApi.Models
         public string? NameAbreviado{ get;set;}
 
         [JsonPropertyName("code")]
-        public string? Codigo{ get;set;}
+        public int? CodigoBanco{ get;set;}
 
         [JsonPropertyName("FullName")]
         public string? NomeCompleto{ get;set;}
